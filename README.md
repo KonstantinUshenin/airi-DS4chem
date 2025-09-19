@@ -14,9 +14,15 @@
 - `005_geometry_optimization` -- оптимизация геометрии полуэмпирическими методами, HF и DFT теориями
 - `006_neural_network_potential` -- нейронные потенциалы. MACE, nabla2DFT
 
-
+### Дополнительные материалы (Norgey Bilinskiy)
+- `a001_beautiful_EDA` -- визуализация данных с цветовой раскраской и более красивые графики
+- `a002_hyperparameter_optimization` -- оптимизация гиперпараметров для XGBoost через Grid Search
 
 # Возможные проблемы
+
+### Данные
+
+`summary.csv` в репозитории содержит только 1000 строк. Полный файл содержит 19 миллионов строк и загружается как показано в `000_prepare_environment`
 
 ### Размеры величин
 
@@ -37,3 +43,4 @@ conda activate myenv
 pip install jupyter ipykernel
 python -m ipykernel install --user --name=myenv --display-name "Python (myenv)"
 ```
+
