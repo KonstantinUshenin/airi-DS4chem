@@ -5,12 +5,14 @@
 ### Практика 1
 - `001_first_look_at_data` -- форматы представления химических данных
 - `002_load_nabla2DFT_metainformatio` -- работа со SMILES из датасета nabla2DFT
-- `003_strong_ML_baseline` -- три базовые решения: Fingerprints+XGBoost, Bag-of-atoms, Bag-of-bonds
 
 ### Практика 2
+- `003_strong_ML_baseline` -- три базовые решения: Fingerprints+XGBoost, Bag-of-atoms, Bag-of-bonds
 - `004_generate_conformations` -- генерация конформаций
+
+### Практика 3
 - `005_geometry_optimization` -- оптимизация геометрии полуэмпирическими методами, HF и DFT теориями
-- `006_neural_network_potential` -- 
+- `006_neural_network_potential` -- нейронные потенциалы. MACE, nabla2DFT
 
 
 
